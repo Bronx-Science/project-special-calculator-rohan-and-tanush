@@ -96,9 +96,6 @@ class WeightSelector extends StatefulWidget {
   WeightOptions? _unit;
   final ValueChanged<WeightOptions?> onUnitChanged;
 
-  // WeightOptions? getSelection() { find a way to access the selection
-
-  // }
 
   @override
   State<WeightSelector> createState() => _WeightSelectorState(
