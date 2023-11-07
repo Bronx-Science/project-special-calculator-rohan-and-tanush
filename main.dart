@@ -372,7 +372,7 @@ class _myAppState extends State<MyApp> {
                           onPressed: () {
                             Clipboard.setData(ClipboardData(
                                 text:
-                                    'My BMI is  ${currentBmi.toStringAsFixed(3)}'));
+                                    'My BMI is  ${currentBmi.toStringAsFixed(2)}'));
                           },
                           style:
                               ElevatedButton.styleFrom(primary: Colors.green)))
